@@ -1,15 +1,15 @@
 {
   "name": "furina",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Landing page for Hội Thương Gia Furina.",
+  "main": "index.html",
   "scripts": {
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["furina", "landing-page", "html", "css"],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
