@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Thương gia Furina</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#banner">Bỏ qua tới nội dung</a>
+
+    <header class="main-navbar" role="banner">
+        <div class="logo">Hội Thương Gia Furina</div>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="https://www.facebook.com/thuonggiafurina" target="_blank" rel="noopener noreferrer">Tin Tức</a></li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Chính Sách ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><button type="button" class="popup-link" onclick="openPopup('popup-1')">Đặt hàng - Cọc - Giữ kho</button></li>
+                        <li><button type="button" class="popup-link" onclick="openPopup('popup-2')">Hủy cọc - Hủy đơn</button></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Hỗ Trợ ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.facebook.com/thuonggiafurina/" target="_blank" rel="noopener noreferrer">Thương Gia Furina</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61573333640786" target="_blank" rel="noopener noreferrer">Thương Gia Zhongli</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiacolumbina" target="_blank" rel="noopener noreferrer">Thương Gia Columbina</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiasandrone" target="_blank" rel="noopener noreferrer">Thương Gia Sandrone</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiaescoffier" target="_blank" rel="noopener noreferrer">Thương Gia Escoffier</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiayaemiko" target="_blank" rel="noopener noreferrer">Thương Gia Yae Miko</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61590626847228" target="_blank" rel="noopener noreferrer">Thương Gia Hutao</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61570975860208" target="_blank" rel="noopener noreferrer">Thương Gia Neuvillette</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiahutaoo" target="_blank" rel="noopener noreferrer">Thương Gia Ganyu</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Fanpage ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.facebook.com/groups/2125395704882546" target="_blank" rel="noopener noreferrer">Facebook 1</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61590638517635" target="_blank" rel="noopener noreferrer">Facebook 2</a></li>
+                        <li><a href="https://www.instagram.com/thuonggiafurina" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href="https://pin.it/7x1UuxAqg" target="_blank" rel="noopener noreferrer">Pinteres</a></li>
+                        <li><a href="https://discord.gg/UhYfFdwGm4" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="navbar scroll-navbar" id="myScrollNav" role="banner">
+        <div class="logo">Hội Thương gia Furina</div>
+        <nav aria-label="Secondary navigation">
+            <ul>
+                <li><a href="#banner">Trang Chủ</a></li>
+                <li><a href="#showcase">Danh mục</a></li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Chính Sách ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><button type="button" class="popup-link" onclick="openPopup('popup-1')">Đặt hàng - Cọc - Giữ kho</button></li>
+                        <li><button type="button" class="popup-link" onclick="openPopup('popup-2')">Hủy cọc - Hủy đơn</button></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Hỗ Trợ ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.facebook.com/thuonggiafurina/" target="_blank" rel="noopener noreferrer">Thương Gia Furina</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61573333640786" target="_blank" rel="noopener noreferrer">Thương Gia Zhongli</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiacolumbina" target="_blank" rel="noopener noreferrer">Thương Gia Columbina</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiasandrone" target="_blank" rel="noopener noreferrer">Thương Gia Sandrone</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiaescoffier" target="_blank" rel="noopener noreferrer">Thương Gia Escoffier</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiayaemiko" target="_blank" rel="noopener noreferrer">Thương Gia Yae Miko</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61590626847228" target="_blank" rel="noopener noreferrer">Thương Gia Hutao</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Fanpage ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.facebook.com/groups/2125395704882546" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                        <li><a href="https://discord.gg/sJcMpRbCEg" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner" class="banner-section">
+            <div class="banner-content glass-box">
+                <div class="avatar-col">
+                    <img src="frnava.webp" alt="Avatar Thương Gia Furina" class="avatar-img">
+                </div>
+                <div class="text-col">
+                    <h1>Thương Gia Furina</h1>
+                    <p>✨ Thương Gia Furina - Sản Phẩm Gì Cũng Có!</p>
+                    <p>💰 Chào, tui là Thương Gia Furina (lúc trước là Đại Nương Furina), là 1 cửa hàng tiềm năng với khát khao trở thành 1 trong những người cung cấp sản phẩm có tâm và được mọi người yêu mến 🚙</p>
+                    <p>💕 Hội Thương Gia Nhà Furina là tập hợp nhiều Thương Gia với nhiều lĩnh vực sản phẩm khác nhau nhằm đáp ứng được tất cả mong muốn của các bạn.</p>
+                    <p>🛒 Những mặt hàng tiêu biểu như: Búp Bê Bông, Đồ Cosplay, Figure, Goods, Bàn phím, chuột, lót chuột, tai nghe bluetooth, tùm lum tùm la,... bất cứ cái gì bạn nghĩ đến, có thể tui có nó đấy.</p>
+                    <a href="https://discord.gg/UhYfFdwGm4" target="_blank" rel="noopener noreferrer" class="cta-btn">Khám Phá Ngay</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="showcase-section">
+            <h2 class="section-title">Sản phẩm tiêu biểu</h2>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" type="button" aria-label="Trước">&#10094;</button>
+                <div class="carousel-view">
+                    <div class="carousel-track" id="track">
+                        <div class="product-card">
+                            <img src="bupbebong.webp" alt="Búp Bê Bông" class="product-img">
+                            <h3>Búp Bê Bông</h3>
+                            <a href="https://sanpham.thuonggiafurina.com/s%E1%BA%A3n-ph%E1%BA%A9m/bupbebong" target="_blank" rel="noopener noreferrer" class="buy-btn">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card">
+                            <img src="docosplay.webp" alt="Đồ Cosplay" class="product-img">
+                            <h3>Đồ Cosplay</h3>
+                            <a href="https://sanpham.thuonggiafurina.com/s%E1%BA%A3n-ph%E1%BA%A9m/cosplay" target="_blank" rel="noopener noreferrer" class="buy-btn">Đang cập nhật</a>
+                        </div>
+                        <div class="product-card">
+                            <img src="figure.webp" alt="Figure / Mô hình" class="product-img">
+                            <h3>Figure / Mô hình</h3>
+                            <a href="https://sanpham.thuonggiafurina.com/s%E1%BA%A3n-ph%E1%BA%A9m/figure" target="_blank" rel="noopener noreferrer" class="buy-btn">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card">
+                            <img src="keycap.webp" alt="Keycap" class="product-img">
+                            <h3>Keycap</h3>
+                            <a href="https://sanpham.thuonggiafurina.com/s%E1%BA%A3n-ph%E1%BA%A9m/keycap" target="_blank" rel="noopener noreferrer" class="buy-btn">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card">
+                            <img src="bupbenguoilon.webp" alt="Búp Bê Người Lớn" class="product-img">
+                            <h3>Búp bê người lớn</h3>
+                            <a href="https://sanpham.thuonggiafurina.com/s%E1%BA%A3n-ph%E1%BA%A9m/bupbenguoilon" target="_blank" rel="noopener noreferrer" class="buy-btn">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card">
+                            <img src="tainghebluetooth.webp" alt="Tai nghe Bluetooth" class="product-img">
+                            <h3>Tai nghe Bluetooth</h3>
+                            <a href="https://sanpham.thuonggiafurina.com/s%E1%BA%A3n-ph%E1%BA%A9m/tai-nghe-bluetooth" target="_blank" rel="noopener noreferrer" class="buy-btn">Đang cập nhật</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" type="button" aria-label="Tiếp">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="popup-1" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content glass-box" role="dialog" aria-modal="true" aria-labelledby="popup1-title">
+            <button type="button" class="close-btn" onclick="closePopup('popup-1')" aria-label="Đóng cửa sổ">&times;</button>
+            <h2 id="popup1-title">Bảo Hành & Đổi Trả</h2>
+            <p>💸 Chính sách thanh toán khi mua hàng</p>
+            <p>Khi đặt hàng khách sẽ luôn thanh toán đầy đủ (chưa bao gồm tiền ship) hoặc thanh toán cọc (60 - 85% tùy vào độ uy tín của khách với cửa hàng).</p>
+            <p>Khách có thể gửi chung tiền ship khi chuyển tiền lần đầu tiên.</p>
+            <p>Khi đặt hàng khách hãy luôn để lại số điện thoại nhé.</p>
+            <p>STK thanh toán luôn là: BIDV - 6530805189 (NGUYEN DO DY AN).</p>
+            <p>🔐 Chính sách đặt cọc chỗ trước - tránh tăng giá</p>
+            <p>Khi khách hàng đặt cọc 20% giá trị đơn hàng, nó sẽ chưa được order mà tạm thời chỉ giữ nguyên giá. Đơn sẽ được đặt khi khách thanh toán 60 - 85% tùy vào độ uy tín của khách.</p>
+            <p>Đối với các sản phẩm có thời gian về lâu, đặt chỗ trước, mở slot cọc trước, khách hoàn toàn có thể giữ chỗ cho mình bằng mức giá đã đề xuất, giá sẽ không đổi khi về tay khách hàng.</p>
+            <p>📦 Chính sách giữ hộ - cất kho</p>
+            <p>Khi khách hàng không thể nhận hàng khi hàng đã về, shop sẽ giữ hộ khách trong vòng 30 ngày hoàn toàn miễn phí. Sau 30 ngày sẽ tính 10k/tuần chờ khách.</p>
+            <p>Nếu khách đi lâu hơn dự kiến, có thể báo với shop để có hướng giải quyết tốt nhất cho đơn hàng của mình khách nhé.</p>
+        </div>
+    </div>
+
+    <div id="popup-2" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content glass-box" role="dialog" aria-modal="true" aria-labelledby="popup2-title">
+            <button type="button" class="close-btn" onclick="closePopup('popup-2')" aria-label="Đóng cửa sổ">&times;</button>
+            <h2 id="popup2-title">Chính sách Hủy cọc - Hủy đơn</h2>
+            <p>🧧 Chính sách hủy cọc</p>
+            <p>Nếu thời gian đặt hàng đã đi được 50% quãng đường, khách sẽ mất hoàn toàn cọc trước đó nếu hủy đơn này.</p>
+            <p>Thời gian hủy càng sớm, tiền cọc gửi lại càng trọn vẹn.</p>
+            <p>Nếu sản phẩm được lên đơn và đang trong tiến trình chạy về kho, khách cũng sẽ mất 100% cọc trước đó nếu hủy lúc này.</p>
+            <p>💔 Chính sách hủy đơn</p>
+            <p>Nếu sản phẩm đã về đến cửa hàng nhưng khách không nhận nữa, khách sẽ mất toàn bộ chi phí đã bỏ ra trước đó 100%.</p>
+            <p>Khách có thể tìm những người khác có nhu cầu, shop sẽ làm trung gian giao dịch không mất phí trung gian.</p>
+            <p>Khách có thể gửi lại cho cửa hàng và đợi shop tìm được chủ nhân mới cho món hàng, sau đó sẽ gửi lại phần tiền cho khách 50 - 80% tùy vào độ uy tín của khách đối với cửa hàng.</p>
+            <p>Nếu sản phẩm chưa về đến cửa hàng, thì xử lý như chính sách hủy cọc.</p>
+        </div>
+    </div>
+
+<footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="icon.png" alt="Thương Gia Furina Logo">
+                </div>
+
+                <div class="footer-col brand-col">
+                    <h3>Thương Gia Furina</h3>
+                    <p>Việc gì khó, có Fu lo. Chào mừng bạn đến với cửa hàng nho nhỏ của Hội thương gia Furina.</p>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h3>Khám Phá</h3>
+                    <ul>
+                        <li><a href="#banner">Về Chúng Tôi</a></li>
+                        <li><a href="#">Bộ Sưu Tập</a></li>
+                        <li><a href="https://www.facebook.com/thuonggiafurina" target="_blank" rel="noopener noreferrer">Tin Tức</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-col contact-col">
+                    <h3>Liên Hệ</h3>
+                    <p>Tham gia vào cộng đồng của chúng mình để nhận những sản phẩm mới nhất và ưu đãi đặc biệt!</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/groups/212539570488254acebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="https://www.instagram.com/thuonggiafurina" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://discord.gg/UhYfFdwGm4" target="_blank" rel="noopener noreferrer">Discord</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Thương Gia Furina. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            const scrollNav = document.getElementById('myScrollNav');
+            if (!scrollNav) return;
+            const isScrolled = document.documentElement.scrollTop > 400;
+            scrollNav.classList.toggle('show', isScrolled);
+        });
+
+        function openPopup(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.classList.add('active');
+                el.setAttribute('aria-hidden', 'false');
+            }
+        }
+
+        function closePopup(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.classList.remove('active');
+                el.setAttribute('aria-hidden', 'true');
+            }
+        }
+
+        window.addEventListener('click', function (event) {
+            if (event.target.classList && event.target.classList.contains('modal-overlay')) {
+                event.target.classList.remove('active');
+                event.target.setAttribute('aria-hidden', 'true');
+            }
+        });
+
+        window.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') {
+                document.querySelectorAll('.modal-overlay.active').forEach((overlay) => {
+                    overlay.classList.remove('active');
+                    overlay.setAttribute('aria-hidden', 'true');
+                });
+            }
+        });
+
+        (function () {
+            let currentSlide = 0;
+            const track = document.getElementById('track');
+            const buttons = document.querySelectorAll('.carousel-btn');
+            if (!track) return;
+
+            let cardWidth = 0;
+            let visibleCount = 1;
+            let maxSlides = 0;
+
+            function recalc() {
+                const firstCard = track.children[0];
+                if (!firstCard) return;
+                const gap = 40;
+                cardWidth = firstCard.offsetWidth + gap;
+                const viewWidth = document.querySelector('.carousel-view').offsetWidth || window.innerWidth;
+                visibleCount = Math.max(1, Math.floor(viewWidth / cardWidth));
+                maxSlides = Math.max(0, track.children.length - visibleCount);
+                currentSlide = Math.min(currentSlide, maxSlides);
+                applyTransform();
+            }
+
+            function applyTransform() {
+                track.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
+            }
+
+            function moveSlide(direction) {
+                currentSlide += direction;
+                if (currentSlide > maxSlides) currentSlide = 0;
+                if (currentSlide < 0) currentSlide = maxSlides;
+                applyTransform();
+            }
+
+            window.addEventListener('resize', recalc);
+            window.addEventListener('load', () => setTimeout(recalc, 50));
+
+            let autoPlay = setInterval(() => moveSlide(1), 5000);
+
+            buttons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    moveSlide(button.classList.contains('prev-btn') ? -1 : 1);
+                    clearInterval(autoPlay);
+                    autoPlay = setInterval(() => moveSlide(1), 5000);
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
